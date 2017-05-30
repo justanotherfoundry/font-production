@@ -13,6 +13,8 @@ To install in Glyphs,
 
 • place the `GlyphData.xml` file into the `Info` subfolder (create the `Info` folder first in case it does not exist)
 
+• restart Glyphs
+
 If you already have your own `GlyphData.xml` in this folder then you need to merge the files manually.
 
 **Note:** By using this GlyphData.xml file, you may miss out on updates to the default glyph data for the plain letters, such as changes to the default anchors.
