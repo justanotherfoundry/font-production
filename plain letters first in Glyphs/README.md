@@ -4,7 +4,7 @@ Use this with [Glyphs](https://glyphsapp.com/) in order to keep A–Z and a–z 
 
 ![plain letters first](plain_letters_first.png?raw=true)
 
-**Note:** Usually you need to add a new glyph to the font and remove it in order for this to take effect.
+**Note:** You need to run `Glyph` > `Update Glyph Info` in order for this to take effect.
 
 
 To install in Glyphs,
