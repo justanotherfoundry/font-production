@@ -2,7 +2,7 @@
 
 Use this with [Glyphs](https://glyphsapp.com/) in order to keep A–Z and a–z in one row, before the accented letters if you dislike the default sorting, which keeps plain letters and composites grouped together.
 
-![plain letters first](/plain letters_first.png?raw=true)
+![plain letters first](plain letters_first.png?raw=true)
 
 
 To install in Glyphs,
