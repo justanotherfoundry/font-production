@@ -1,4 +1,4 @@
-## palettize_kerning
+## palettize kerning
 
 To be used with [fontTools](https://github.com/behdad/fonttools).
 
