@@ -4,6 +4,8 @@ Use this with [Glyphs](https://glyphsapp.com/) in order to keep A–Z and a–z 
 
 ![plain letters first](plain_letters_first.png?raw=true)
 
+**Note:** Usually you need to add a new glyph to the font and remove it in order for this to take effect.
+
 
 To install in Glyphs,
 
@@ -13,4 +15,4 @@ To install in Glyphs,
 
 If you already have your own `GlyphData.xml` in this folder then you need to merge the files manually.
 
-Note: By using this GlyphData.xml file, you may miss out on updates to the default glyph data for the plain letters, such as changes to the default anchors.
+**Note:** By using this GlyphData.xml file, you may miss out on updates to the default glyph data for the plain letters, such as changes to the default anchors.
