@@ -9,11 +9,9 @@ Use this with [Glyphs](https://glyphsapp.com/) in order to keep A–Z and a–z 
 
 To install in Glyphs,
 
-• press Cmd+Shift+Y in Glyphs, which opens a Finder window
-
-• place the `GlyphData.xml` file into the `Info` subfolder (create the `Info` folder first in case it does not exist)
-
-• restart Glyphs
+* press Cmd+Shift+Y in Glyphs, which opens a Finder window
+* place the `GlyphData.xml` file into the `Info` subfolder (create the `Info` folder first in case it does not exist)
+* restart Glyphs
 
 If you already have your own `GlyphData.xml` in this folder then you need to merge the files manually.
 
