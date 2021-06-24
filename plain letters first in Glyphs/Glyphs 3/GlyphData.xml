@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE glyphData [
+<!ELEMENT glyphData (glyph)+>
+<!ELEMENT glyph EMPTY>
+<!ATTLIST glyph
+	unicode			CDATA		#IMPLIED
+	name			CDATA		#REQUIRED
+	sortName		CDATA		#IMPLIED
+	sortNameKeep	CDATA		#IMPLIED
+	category		CDATA		#REQUIRED
+	subCategory		CDATA		#IMPLIED
+	script			CDATA		#IMPLIED
+	description		CDATA		#REQUIRED
+	production		CDATA		#IMPLIED
+	altNames		CDATA		#IMPLIED
+	decompose		CDATA		#IMPLIED
+	anchors			CDATA		#IMPLIED
+	accents			CDATA		#IMPLIED>
+]>
+<glyphData>
+	<glyph unicode="0041" name="A" sortName="0_A" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER A" anchors="top, bottom, ogonek" marks="acutecomb, brevecomb, brevecomb_acutecomb, brevecomb_gravecomb, brevecomb_hookabovecomb, brevecomb_tildecomb, caroncomb, circumflexcomb, circumflexcomb_acutecomb, circumflexcomb_gravecomb, circumflexcomb_hookabovecomb, circumflexcomb_tildecomb, dieresiscomb, dotaccentcomb, dotbelowcomb, gravecomb, hookabovecomb, macroncomb, ogonekcomb, ringcomb, tildecomb" />
+	<glyph unicode="0042" name="B" sortName="0_B" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER B" anchors="top, bottom, center" marks="dotaccentcomb, dotbelowcomb, strokeshortcomb" />
+	<glyph unicode="0043" name="C" sortName="0_C" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER C" anchors="top, bottom" marks="cedillacomb, dotaccentcomb, caroncomb, circumflexcomb, acutecomb, commaabovecomb" />
+	<glyph unicode="0044" name="D" sortName="0_D" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER D" anchors="top, bottom, center" marks="caroncomb, strokeshortcomb, macronbelowcomb" />
+	<glyph unicode="0045" name="E" sortName="0_E" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER E" anchors="top, bottom, ogonek, topleft" marks="acutecomb, brevecomb, caroncomb, cedillacomb, circumflexcomb, circumflexcomb_acutecomb, circumflexcomb_gravecomb, circumflexcomb_hookabovecomb, circumflexcomb_tildecomb, dieresiscomb, dotaccentcomb, dotbelowcomb, gravecomb, hookabovecomb, macroncomb, ogonekcomb, tildecomb, verticallinebelowcomb" />
+	<glyph unicode="0046" name="F" sortName="0_F" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER F" anchors="top, bottom" />
+	<glyph unicode="0047" name="G" sortName="0_G" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER G" anchors="top, bottom" marks="cedillacomb, dotaccentcomb, caroncomb, circumflexcomb, commaaccentcomb, brevecomb" />
+	<glyph unicode="0048" name="H" sortName="0_H" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER H" anchors="top, bottom, center, topleft" marks="circumflexcomb, strokelongcomb" />
+	<glyph unicode="0049" name="I" sortName="0_I" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER I" anchors="top, bottom, ogonek, topleft" marks="caroncomb, dotaccentcomb, ogonekcomb, brevecomb, tildecomb, circumflexcomb, acutecomb, dieresiscomb, gravecomb, macroncomb, dotbelowcomb" />
+	<glyph unicode="004A" name="J" sortName="0_J" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER J" anchors="top, bottom" marks="circumflexcomb" />
+	<glyph unicode="004B" name="K" sortName="0_K" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER K" anchors="top, bottom" marks="acutecomb, commaaccentcomb, caroncomb" />
+	<glyph unicode="004C" name="L" sortName="0_L" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER L" anchors="top, bottom, center, topright" marks="acutecomb, caroncomb.alt, commaaccentcomb, slashshortcomb, dotbelowcomb, commaabovecomb, strokeshortcomb, tildeoverlaycomb" />
+	<glyph unicode="004D" name="M" sortName="0_M" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER M" anchors="top, bottom" marks="acutecomb, cedillacomb, dotbelowcomb, dotaccentcomb, gravecomb, macroncomb, commaabovecomb" />
+	<glyph unicode="004E" name="N" sortName="0_N" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER N" anchors="top, bottom" marks="tildecomb, acutecomb, commaaccentcomb, caroncomb, gravecomb, macroncomb, commaabovecomb, dotbelowcomb" />
+	<glyph unicode="004F" name="O" sortName="0_O" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER O" anchors="top, bottom, center, topright, ogonek, topleft" marks="horncomb, caroncomb, gravecomb, acutecomb, circumflexcomb, tildecomb, dieresiscomb, hungarumlautcomb, macroncomb, brevecomb, slashlongcomb, dotbelowcomb, ogonekcomb, dblgravecomb, hookabovecomb, breveinvertedcomb, verticallinebelowcomb" />
+	<glyph unicode="0050" name="P" sortName="0_P" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER P" anchors="top, bottom" marks="acutecomb, dotaccentcomb, commaabovecomb" />
+	<glyph unicode="0051" name="Q" sortName="0_Q" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER Q" anchors="top, bottom" marks="commaabovecomb" />
+	<glyph unicode="0052" name="R" sortName="0_R" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER R" anchors="top, bottom" marks="commaaccentcomb, caroncomb, acutecomb" />
+	<glyph unicode="0053" name="S" sortName="0_S" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER S" anchors="top, bottom" marks="circumflexcomb, commaaccentcomb, caroncomb, acutecomb, cedillacomb, dotbelowcomb, verticallinebelowcomb" />
+	<glyph unicode="0054" name="T" sortName="0_T" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER T" anchors="top, bottom, center" marks="commaaccentcomb, cedillacomb, caroncomb, strokelongcomb, commaabovecomb" />
+	<glyph unicode="0055" name="U" sortName="0_U" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER U" anchors="top, bottom, ogonek, topright" marks="horncomb, caroncomb, acutecomb, circumflexcomb, dieresiscomb, gravecomb, hungarumlautcomb, ogonekcomb, brevecomb, macroncomb, ringcomb, tildecomb, dotbelowcomb, dblgravecomb, hookabovecomb, breveinvertedcomb" />
+	<glyph unicode="0056" name="V" sortName="0_V" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER V" anchors="top, bottom" />
+	<glyph unicode="0057" name="W" sortName="0_W" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER W" anchors="top, bottom" marks="acutecomb, gravecomb, dieresiscomb, circumflexcomb, dotbelowcomb, commaabovecomb" />
+	<glyph unicode="0058" name="X" sortName="0_X" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER X" anchors="top, bottom" marks="dotbelowcomb" />
+	<glyph unicode="0059" name="Y" sortName="0_Y" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER Y" anchors="top, bottom, topleft" marks="gravecomb, macroncomb, acutecomb, dieresiscomb, circumflexcomb, dotbelowcomb, commaabovecomb" />
+	<glyph unicode="005A" name="Z" sortName="0_Z" category="Letter" case="upper" script="latin" description="LATIN CAPITAL LETTER Z" anchors="top, bottom, center" marks="acutecomb, dotaccentcomb, caroncomb, strokeshortcomb" />
+
+	<glyph unicode="0061" name="a" sortName="0_a" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER A" anchors="top, bottom, ogonek" marks="caroncomb, dotaccentcomb, ogonekcomb, macroncomb, brevecomb, tildecomb, circumflexcomb, acutecomb, gravecomb, ringcomb, dieresiscomb, dotbelowcomb" />
+	<glyph unicode="0062" name="b" sortName="0_b" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER B" anchors="top, bottom, center" marks="dotaccentcomb, dotbelowcomb, strokeshortcomb" />
+	<glyph unicode="0063" name="c" sortName="0_c" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER C" anchors="top, bottom" marks="caroncomb, dotaccentcomb, circumflexcomb, acutecomb, cedillacomb, commaabovecomb" />
+	<glyph unicode="0064" name="d" sortName="0_d" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER D" anchors="top@ascender, bottom, center, topright@ascender" marks="caroncomb.alt, strokeshortcomb, macronbelowcomb" />
+	<glyph unicode="0065" name="e" sortName="0_e" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER E" anchors="top, bottom, ogonek" marks="cedillacomb, macroncomb, dotaccentcomb, brevecomb, ogonekcomb, caroncomb, acutecomb, gravecomb, dieresiscomb, circumflexcomb, dotbelowcomb, verticallinebelowcomb" />
+	<glyph unicode="0066" name="f" sortName="0_f" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER F" anchors="top@ascender, bottom" />
+	<glyph unicode="0067" name="g" sortName="0_g" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER G" anchors="top, bottom@descender" marks="cedillacomb, dotaccentcomb, caroncomb, brevecomb, circumflexcomb, commaturnedabovecomb" />
+	<glyph unicode="0068" name="h" sortName="0_h" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER H" anchors="top@ascender, bottom, center@ascender" marks="circumflexcomb.case, strokeshortcomb" />
+	<glyph unicode="0069" name="i" sortName="0_i" decompose="idotless, dotaccentcomb" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER I" anchors="bottom" marks="dotaccentcomb, tildebelowcomb" />
+	<glyph unicode="006A" name="j" sortName="0_j" decompose="jdotless, dotaccentcomb" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER J" />
+	<glyph unicode="006B" name="k" sortName="0_k" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER K" anchors="top@ascender, bottom" marks="commaaccentcomb" />
+	<glyph unicode="006C" name="l" sortName="0_l" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER L" anchors="top@ascender, bottom, center@ascender, topright@ascender" marks="acutecomb.case, commaaccentcomb.case, caroncomb.alt, slashshortcomb, dotbelowcomb, commaabovecomb, strokeshortcomb, tildeoverlaycomb" />
+	<glyph unicode="006D" name="m" sortName="0_m" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER M" anchors="top, bottom" marks="acutecomb, cedillacomb, dotbelowcomb, dotaccentcomb, gravecomb, macroncomb, commaabovecomb" />
+	<glyph unicode="006E" name="n" sortName="0_n" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER N" anchors="top, bottom" marks="tildecomb, acutecomb, commaaccentcomb, caroncomb, gravecomb, macroncomb, commaabovecomb, dotbelowcomb" />
+	<glyph unicode="006F" name="o" sortName="0_o" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER O" anchors="top, bottom, center, topright, ogonek" marks="horncomb, caroncomb, dieresiscomb, circumflexcomb, tildecomb, gravecomb, acutecomb, hungarumlautcomb, macroncomb, brevecomb, slashlongcomb, dotbelowcomb, ogonekcomb, dblgravecomb, hookabovecomb, breveinvertedcomb, verticallinebelowcomb" />
+	<glyph unicode="0070" name="p" sortName="0_p" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER P" anchors="top, bottom" marks="acutecomb, dotaccentcomb, commaabovecomb" />
+	<glyph unicode="0071" name="q" sortName="0_q" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER Q" anchors="top, bottom" marks="commaabovecomb" />
+	<glyph unicode="0072" name="r" sortName="0_r" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER R" anchors="top, bottom" marks="caroncomb, commaaccentcomb, acutecomb" />
+	<glyph unicode="0073" name="s" sortName="0_s" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER S" anchors="top, bottom" marks="commaaccentcomb, caroncomb, cedillacomb, circumflexcomb, acutecomb, caroncomb, dotbelowcomb, verticallinebelowcomb" />
+	<glyph unicode="0074" name="t" sortName="0_t" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER T" anchors="top, bottom, center, topright@ascender" marks="commaaccentcomb, cedillacomb, caroncomb.alt, strokeshortcomb, commaabovecomb" />
+	<glyph unicode="0075" name="u" sortName="0_u" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER U" anchors="top, bottom, ogonek, topright" marks="horncomb, caroncomb, hungarumlautcomb, ogonekcomb, circumflexcomb, dieresiscomb, acutecomb, gravecomb, macroncomb, ringcomb, brevecomb, tildecomb, dotbelowcomb, dblgravecomb, hookabovecomb, breveinvertedcomb" />
+	<glyph unicode="0076" name="v" sortName="0_v" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER V" anchors="top, bottom" />
+	<glyph unicode="0077" name="w" sortName="0_w" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER W" anchors="top, bottom" marks="acutecomb, gravecomb, dieresiscomb, circumflexcomb, commaabovecomb" />
+	<glyph unicode="0078" name="x" sortName="0_x" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER X" anchors="top, bottom" marks="dotbelowcomb" />
+	<glyph unicode="0079" name="y" sortName="0_y" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER Y" anchors="top, bottom" marks="gravecomb, macroncomb, circumflexcomb, dieresiscomb, acutecomb, dotbelowcomb, commaabovecomb" />
+	<glyph unicode="007A" name="z" sortName="0_z" category="Letter" case="lower" script="latin" description="LATIN SMALL LETTER Z" anchors="top, bottom, center" marks="acutecomb, dotaccentcomb, caroncomb, strokeshortcomb" />
+</glyphData>
