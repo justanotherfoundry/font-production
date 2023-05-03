@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+#!/usr/bin/python3
 
 import fontTools.ttLib
 
@@ -30,6 +30,7 @@ def palettize_kerning( font, max_tweak_relative = 0.003 ):
 				for subtable_indx in range( len( lookups[lookupListIndex].SubTable ) -1, -1, -1 ):
 					subtable = lookups[lookupListIndex].SubTable[subtable_indx]
 					if subtable.Format == 1:
+						# glyph-glyph kerning
 						for pset_index in range( len( subtable.PairSet ) -1, -1, -1 ):
 							pairSet = subtable.PairSet[pset_index]
 							for pv_index in range( len( pairSet.PairValueRecord ) -1, -1, -1 ):
@@ -39,6 +40,7 @@ def palettize_kerning( font, max_tweak_relative = 0.003 ):
 								else:
 									del pairSet.PairValueRecord[pv_index]
 					else:
+						# class kerning
 						for class1_index in range( subtable.Class1Count -1, -1, -1 ):
 							class1Record = subtable.Class1Record[class1_index]
 							for class2_index in range( subtable.Class2Count -1, -1, -1 ):
@@ -65,7 +67,7 @@ def palettize_kerning( font, max_tweak_relative = 0.003 ):
 			upper = v
 	spans.append( [ int( lower ), int( upper ) ] )
 	# equalize adjacent spans
-	for i in xrange( len( spans ) - 1 ):
+	for i in range( len( spans ) - 1 ):
 		# middle of the outer limits of the two spans
 		middle = ( spans[i][0] + spans[i+1][1] ) // 2 # always rounds down
 		if spans[i][1] > middle:
